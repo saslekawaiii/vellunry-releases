@@ -1,66 +1,49 @@
-<p align="center"><img src="media/cover.svg" alt="Vellunry — твоя музыка, на твоих устройствах" width="100%"></p>
+<img src="media/cover.png" alt="Vellunry. Музыка без лишнего шума" width="100%">
 
-<p align="center">
-  <a href="https://vellunry.ru">Открыть веб-плеер</a> ·
-  <a href="https://github.com/saslekawaiii/vellunry-releases/releases">Скачать приложение</a> ·
-  <a href="https://t.me/vellunry">Новости</a> ·
-  <a href="INSTALL.md">Установка</a>
+<p>
+  <a href="https://vellunry.ru/mysongs">Открыть плеер ↗</a> &nbsp; / &nbsp;
+  <a href="https://t.me/vellunry">Telegram ↗</a> &nbsp; / &nbsp;
+  <a href="INSTALL.md">Установка</a> &nbsp; / &nbsp;
+  <a href="INSIDE.md">Что внутри</a>
 </p>
 
-## Музыка остаётся с тобой
+Vellunry — музыкальный сервис с личной картотекой, плейлистами,
+рекомендациями и текстами песен. Работает в браузере и приложениях.
 
-**Vellunry** — онлайн-плеер с личной картотекой, персональными миксами,
-плейлистами и текстами песен. Приложения открывают тот же сервис, что и браузер:
-один аккаунт, привычный интерфейс, обновления без переустановки клиента.
+## Скачать
 
-Здесь находятся **готовые установщики и инструкции**, а не исходники сервиса.
-Репозиторий пока закрыт: ссылки доступны только приглашённым участникам.
+Бета **0.1.0** · [Все файлы релиза](https://github.com/saslekawaiii/vellunry-releases/releases/tag/v0.1.0-beta.1)
 
-## Выбери своё устройство
+| Система | Установщик |
+| :--- | :--- |
+| Android 8+ | [APK](https://github.com/saslekawaiii/vellunry-releases/releases/download/v0.1.0-beta.1/Vellunry-0.1.0-beta.1-android.apk) |
+| Windows · x64 | [EXE](https://github.com/saslekawaiii/vellunry-releases/releases/download/v0.1.0-beta.1/Vellunry-0.1.0-beta.1-win-x64.exe) |
+| macOS · Apple Silicon | [DMG](https://github.com/saslekawaiii/vellunry-releases/releases/download/v0.1.0-beta.1/Vellunry-0.1.0-beta.1-mac-arm64.dmg) |
+| macOS · Intel | [DMG](https://github.com/saslekawaiii/vellunry-releases/releases/download/v0.1.0-beta.1/Vellunry-0.1.0-beta.1-mac-x64.dmg) |
+| Linux · x64 | [AppImage](https://github.com/saslekawaiii/vellunry-releases/releases/download/v0.1.0-beta.1/Vellunry-0.1.0-beta.1-linux-x64.AppImage) · [DEB](https://github.com/saslekawaiii/vellunry-releases/releases/download/v0.1.0-beta.1/Vellunry-0.1.0-beta.1-linux-x64.deb) |
+| iPhone и iPad · iOS 15+ | [IPA для переподписи](https://github.com/saslekawaiii/vellunry-releases/releases/download/v0.1.0-beta.1/Vellunry-0.1.0-beta.1-ios-unsigned.ipa) |
 
-| Устройство | Скачать бета-версию | Что нужно знать |
-| :--- | :--- | :--- |
-| Android 8+ | [APK](https://github.com/saslekawaiii/vellunry-releases/releases/download/v0.1.0-beta.1/Vellunry-0.1.0-beta.1-android.apk) | Подписан постоянным ключом Vellunry. Нужен современный браузер с поддержкой TWA. |
-| Windows, x64 | [Установщик EXE](https://github.com/saslekawaiii/vellunry-releases/releases/download/v0.1.0-beta.1/Vellunry-0.1.0-beta.1-win-x64.exe) | Бета без коммерческой подписи; возможен запрос SmartScreen. |
-| macOS, Apple Silicon | [DMG для M1/M2/M3/M4 и новее](https://github.com/saslekawaiii/vellunry-releases/releases/download/v0.1.0-beta.1/Vellunry-0.1.0-beta.1-mac-arm64.dmg) | Не нотарифицирован Apple. |
-| macOS, Intel | [DMG для Intel](https://github.com/saslekawaiii/vellunry-releases/releases/download/v0.1.0-beta.1/Vellunry-0.1.0-beta.1-mac-x64.dmg) | Не нотарифицирован Apple. |
-| Linux, x64 | [AppImage](https://github.com/saslekawaiii/vellunry-releases/releases/download/v0.1.0-beta.1/Vellunry-0.1.0-beta.1-linux-x64.AppImage) · [DEB](https://github.com/saslekawaiii/vellunry-releases/releases/download/v0.1.0-beta.1/Vellunry-0.1.0-beta.1-linux-x64.deb) | Для Debian/Ubuntu есть обычный пакет; AppImage требует совместимого окружения. |
-| iPhone / iPad, iOS 15+ | [IPA для переподписи](https://github.com/saslekawaiii/vellunry-releases/releases/download/v0.1.0-beta.1/Vellunry-0.1.0-beta.1-ios-unsigned.ipa) | **Неподписанный IPA.** Перед установкой нужна личная подпись через Sideloadly/AltStore. Это не TestFlight и не App Store. |
+**Перед установкой:** Windows-сборка без подписи издателя; macOS-сборки
+без нотарификации Apple. IPA нельзя установить напрямую из Safari —
+нужна переподпись. [Подробная инструкция](INSTALL.md).
 
-[Все файлы релиза](https://github.com/saslekawaiii/vellunry-releases/releases/tag/v0.1.0-beta.1) ·
-[Проверить SHA-256](https://github.com/saslekawaiii/vellunry-releases/releases/download/v0.1.0-beta.1/SHA256SUMS.txt)
+[Контрольные суммы SHA-256](https://github.com/saslekawaiii/vellunry-releases/releases/download/v0.1.0-beta.1/SHA256SUMS.txt)
 
-## Один сервис, разные экраны
+## Плеер
 
-| На компьютере | На телефоне |
-| :---: | :---: |
-| <img src="media/desktop.webp" alt="Интерфейс веб-плеера Vellunry на компьютере" width="560"> | <img src="media/iphone.webp" alt="Интерфейс веб-плеера Vellunry на iPhone" width="560"> |
+<img src="media/player.webp" alt="Картотека Vellunry на компьютере" width="100%">
 
-Иллюстрации онлайн-сервиса. Интерфейс, каталог и рекомендации обновляются на сайте
-и могут отличаться от показанных экранов.
-
-## Что проверить в бете
-
-- Вход в свой аккаунт через Telegram и открытие картотеки.
-- Поиск, профили исполнителей, альбомы и добавление треков.
-- Плейлисты и восемь персональных миксов.
-- Воспроизведение, перемотку, следующий трек и управление системой.
-- Поведение при сворачивании, блокировке экрана и потере сети.
-
-Это первая закрытая бета оболочек. Фоновое воспроизведение, системные кнопки
-и офлайн-возможности зависят от платформы и требуют проверки на реальных
-устройствах. Полный нативный офлайн-плеер этими сборками не заявляется.
+Это скриншот веб-интерфейса. Приложения подключаются к тому же сервису;
+интерфейс обновляется на сайте. Фоновое воспроизведение и системное управление
+пока проверяются на разных устройствах. Нативный офлайн-плеер не заявляется.
 
 ## Обратная связь
 
-Нашёл ошибку? [Создай issue](https://github.com/saslekawaiii/vellunry-releases/issues/new?template=bug_report.yml)
-или напиши [в поддержку](https://t.me/saslekawaiii). Укажи устройство, ОС,
-версию клиента и действия, после которых появилась проблема.
-
-**Не прикладывай пароли, коды входа, токены и личную переписку.**
-О проблемах безопасности сообщай приватно: [SECURITY.md](SECURITY.md).
+[Сообщить об ошибке](https://github.com/saslekawaiii/vellunry-releases/issues/new?template=bug_report.yml)
+или [написать в поддержку](https://t.me/saslekawaiii).
+Укажи устройство, версию ОС и что произошло. Не прикладывай пароли и коды входа.
 
 ---
 
-Copyright 2026 Vellunry. Все права защищены. Vellunry не объявляется open source.
-Сторонние компоненты сохраняют собственные лицензии.
+© 2026 Vellunry. Этот репозиторий содержит установщики и документацию.
+Исходники сервиса не публикуются. [Лицензия](LICENSE) · [Безопасность](SECURITY.md)
