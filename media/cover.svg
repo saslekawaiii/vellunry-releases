@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+  <title id="title">Vellunry — твоя музыка, на твоих устройствах</title>
+  <desc id="desc">Закрытая бета онлайн-клиентов для Android, iOS, Windows, Linux и macOS.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10151f"/><stop offset="1" stop-color="#122b35"/></linearGradient>
+    <linearGradient id="wave"><stop stop-color="#72c6ce"/><stop offset="1" stop-color="#8db9f6"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#448c9c" stop-opacity=".3"/><stop offset="1" stop-color="#448c9c" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1280" height="420" rx="26" fill="url(#bg)"/>
+  <circle cx="1030" cy="210" r="310" fill="url(#glow)"/>
+  <g fill="none" stroke="#7cc9d5" stroke-opacity=".12"><circle cx="1070" cy="210" r="170"/><circle cx="1070" cy="210" r="210"/><circle cx="1070" cy="210" r="250"/></g>
+  <text x="62" y="70" fill="#8fc9d2" font-family="Trebuchet MS,sans-serif" font-size="15" letter-spacing="4">PRIVATE BETA / 01</text>
+  <text x="56" y="192" fill="#f3f7fa" font-family="Trebuchet MS,sans-serif" font-size="103" font-weight="700" letter-spacing="-5">Vellunry</text>
+  <text x="62" y="255" fill="#ccd9e5" font-family="Trebuchet MS,sans-serif" font-size="29">Твоя музыка. На твоих устройствах.</text>
+  <path d="M62 303H700" stroke="#ffffff" stroke-opacity=".13"/>
+  <text x="62" y="348" fill="#91a6ba" font-family="Trebuchet MS,sans-serif" font-size="19">Android / iOS / Windows / Linux / macOS</text>
+  <g stroke="url(#wave)" stroke-width="11" stroke-linecap="round">
+    <path d="M840 193v34M865 165v90M890 185v50M915 139v142M940 170v80M965 119v182M990 157v106M1015 96v228M1040 141v138M1065 171v78M1090 128v164M1115 157v106M1140 185v50M1165 198v24"/>
+  </g>
+</svg>

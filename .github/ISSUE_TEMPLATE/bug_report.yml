@@ -1,0 +1,33 @@
+name: Ошибка в приложении
+description: Сообщить о проблеме в закрытой бете Vellunry
+title: '[Ошибка] '
+body:
+  - type: markdown
+    attributes:
+      value: Не прикладывай пароли, коды входа, токены и личную переписку. Об уязвимостях сообщай приватно через SECURITY.md.
+  - type: input
+    id: platform
+    attributes:
+      label: Устройство и версия ОС
+      placeholder: Например, iPhone 15 / iOS 18 или Windows 11 x64
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Версия клиента
+      placeholder: 0.1.0-beta.1
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Что делал и что получилось
+      description: Короткие шаги, ожидаемое поведение и фактический результат.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Скриншот или детали
+      description: Только обезличенные данные. Если проблема со звуком, укажи состояние приложения и тип подключения звука.
